@@ -1,0 +1,58 @@
+.service-item{
+    background-color: #302E3A;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    width: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.more-services{
+    background-color: rgba(48, 46, 58, 0.342);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.37);
+    width: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.back-icon{
+    width: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.back-icon:hover{
+    background-color: rgba(48, 46, 58, 0.253);
+}
+
+.back-icon-container{
+    padding:20px 0 0 40px;
+}
+
+.subscribe{
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: rgb(86, 85, 92)!important;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(48, 46, 58, 0.216);
+}
+
+.subscribe:active{
+box-shadow: none;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribed{
+    background-color: #6AB5D0!important;
+}

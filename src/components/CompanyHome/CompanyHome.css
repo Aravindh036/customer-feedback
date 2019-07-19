@@ -1,0 +1,112 @@
+.company-home-nav{
+    width: calc(100% - 40px);
+    margin: 10px 20px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #403D4E;
+    box-shadow: 0 4px 10px rgba(64, 61, 78, 0.151);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-home-nav span{
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.company-home-container{
+    border-radius: 8px;
+    background-color: #403D4E;
+    margin: 20px;
+    width: calc(100% - 40px);
+    height: calc(100vh - 120px);
+    padding-top: 20px;
+    overflow: auto;
+}
+
+.services{
+    color: #fff;
+    font-size: 20px;
+    margin: 0 0 0 40px;
+}
+
+.services-list{
+    padding: 10px 40px;
+}
+
+.list-item{
+    padding: 10px 20px;
+    background-color: rgba(48, 46, 58, 0.342);
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.list-item:hover{
+    background-color: #302E3A;
+    border-radius: 8px;
+}
+.list-item-selected{
+    background-color: #302E3A;
+    border-radius: 8px;
+}
+
+.add-service{
+    width: 400px;
+}
+
+.company-home-heading, .add-service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-button{
+    background:linear-gradient(to right,#6AB5D0,#21F9CF);
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 8px;
+    color: #403D4E;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(33, 249, 206, 0.201);
+    transition: all 0.4s ease;
+}
+.theme-button:active{
+    box-shadow: none;
+}
+
+.theme-input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid rgba(229, 250, 247, 0.288);
+    padding: 8px 5px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.margin-right{
+    margin-right: 20px;
+}
+
+.profile-area{
+    width: 300px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-area a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+.profile-area a:hover{
+    text-decoration: underline;
+}
+
+.container-bg{
+    background-color: #302E3A;
+}

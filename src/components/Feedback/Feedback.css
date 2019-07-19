@@ -1,0 +1,61 @@
+.connected{
+    font-size: 25px;
+    color: #21F9CF;
+}
+
+.employee-name{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+.buttons button{
+    background:rgb(167, 36, 36);
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(167, 36, 36, 0.233);
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+.buttons button:active{
+    box-shadow: none;
+    transform: translateY(2px) scale(0.9);
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.feedback-form{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.m-buttons button{
+    background:linear-gradient(to right,#6AB5D0,#21F9CF);
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 8px;
+    color: #403D4E;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(33, 249, 206, 0.201);
+    transition: all 0.4s ease;
+}
+
+.red-c{
+    background:rgb(167, 36, 36)!important;
+    box-shadow: none!important;
+    color:#fff!important;
+}
+
+.feedback-input input{
+    margin-top: 20px;
+    width: 100%;    
+}
